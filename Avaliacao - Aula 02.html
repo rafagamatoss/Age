@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliacao - aula 02</title>
+</head>
+<body>
+    <script>
+        /* Crie um programa que pergunte ao usuário a idade e exiba uma mensagem de acordo com a seguinte lógica:
+        Se a idade for menor que 18 anos, exibir a mensagem "Você é menor de idade".
+        Se a idade for igual a 18 anos, exibir a mensagem "Você acabou de atingir a maioridade".
+        Se a idade for maior que 18 anos, exibir a mensagem "Você é maior de idade". */
+        
+        const idade = Number(prompt('Qual sua idade?'))
+
+        if(idade < 18){
+            alert('Você é menor de idade!')
+        }else if(idade === 18){
+            alert('Você acabou de atingir a maioridade')
+        }else{
+            alert('Você é maior de idade')
+        }
+    </script>
+</body>
+</html>
